@@ -211,6 +211,7 @@ Switched from cloud APIs (Gemini) to an **offline FLAN-T5 model**:
 
 ---
 
-## Author
-
-**G Surya Prakash**
+## Collaborators
+- [G S S Surya Prakash](https://github.com/gsuryap)
+- [Chandan Chatragadda](https://github.com/chandan365c)
+- [Dhruv Thakur](https://github.com/dhruvv154)
