@@ -1,6 +1,7 @@
 # Offline RAG AI Assistant
 
-A Retrieval-Augmented Generation (RAG) based AI assistant that works fully offline using FAISS and FLAN-T5.
+A Retrieval-Augmented Generation (RAG) based AI assistant that works fully offline using FAISS and FLAN-T5. <br>
+Done as a part of the course Generative AI and its Applications (UE23CS342BA4)
 
 ---
 
@@ -160,34 +161,6 @@ Use full names for best results:
 
 ![alt text](assets/image-5.png)
 <br/>
-
----
-
-## Known Limitations
-
-- FLAN-T5 is a lightweight model — responses may be less detailed
-- Retrieval quality depends on Wikipedia content
-- Some ambiguous topics may require manual handling
-
----
-
-## Improvements Made
-
-- Fixed Wikipedia API bug (`machine learning` query issue)
-- Implemented fallback handling for unstable topics
-- Added text chunking for better retrieval accuracy
-- Improved prompt engineering for higher quality answers
-- Designed a clean chat-based UI
-
----
-
-## Key Design Decision
-
-Switched from cloud APIs (Gemini) to an **offline FLAN-T5 model**:
-
-- Avoids API rate limits
-- Works without internet (after the first run)
-- Stable for demos and evaluation
 
 ---
 
